@@ -28,8 +28,8 @@ ul {
     width: 56px;
     height: 56px;
     float: left;
+    color: #fff;
     background-color: #fc2e33;
-    font-size: 0;
 }
 
 .botão-menu {
@@ -78,5 +78,59 @@ ul {
 }
 
 .menu li a:hover {
-    border: 1px solid #fc2e33;
+    background-color: #fc2e33;
+}
+
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background-color: #fc2e33;
+}
+
+.title {
+    width: 100%;
+}
+
+.banner h2 {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+.paragrafo li a{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.orcamento{
+    width: 100%;
+    margin-top: 2%;
+}
+.pedir{
+    width: 65%;
+    height: 2em;
+    float: left;
+    padding: 0% 3%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    background-color: #fff;
+    color: #4e1c1c;
+}
+.sobre{
+    width: 30%;
+    height: 2em;
+    float: right;
+    padding: 0% 3%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    background-color: #4e1c1c;
+    color: #fff; 
+}
+.orcamento i {
+    float: right;
 }
