@@ -58,11 +58,13 @@ ul {
     color: #fff;
     float: right;
     cursor: pointer;
-    margin-right: 5%;
+    margin: 2% 7%;
 }
 
 .menu ul {
     width: 100%;
+    float: left;
+    text-align: center;
 }
 
 .menu li {
@@ -120,12 +122,6 @@ ul {
     color: #4e1c1c;
     border-radius: 10px 0 0 10px;
 }
-
-.pedir:hover {
-    background-color: #4e1c1c;
-    color: #fff;
-}
-
 .servico{
     width: 35%;
     height: 2em;
@@ -137,11 +133,6 @@ ul {
     background-color: #4e1c1c;
     color: #fff;
     border-radius: 0 10px 10px 0; 
-}
-
-.servico:hover {
-    background-color: #fff;
-    color: #4e1c1c;
 }
 .orcamento i {
     float: right;
