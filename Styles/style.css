@@ -115,7 +115,7 @@ ul {
     height: 2em;
     float: left;
     padding: 0% 3%;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: left;
     cursor: pointer;
     background-color: #fff;
@@ -127,7 +127,7 @@ ul {
     height: 2em;
     float: right;
     padding: 0% 3%;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: left;
     cursor: pointer;
     background-color: #4e1c1c;
