@@ -112,7 +112,7 @@ ul {
 }
 .pedir{
     width: 60%;
-    height: 40px;
+    height: 50px;
     float: left;
     padding: 0% 3%;
     font-size: 1.5em;
@@ -124,7 +124,7 @@ ul {
 }
 .servico{
     width: 35%;
-    height: 40px;
+    height: 50px;
     float: right;
     padding: 0% 3%;
     font-size: 1.5em;
