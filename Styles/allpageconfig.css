@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jogar', sans-serif;
+    background-color: #d3d3d3;
+}
+
+a{
+    text-decoration: none;
+}

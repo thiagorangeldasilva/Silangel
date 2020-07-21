@@ -1,0 +1,44 @@
+.menu-curto {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000000e6;
+    top: 0;
+    left: 0;
+}
+
+.menu-curto ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu-curto li {
+    padding: 3%;
+}
+
+.menu-curto li a {
+    font-size: 2em;
+    color: #eee;
+    padding: 3% 3%;
+}
+
+.menu-curto li a:hover {
+    background-color: #f8494c;
+    border-radius: 40px;
+}
+
+.botao-close {
+    font-size: 2em;
+    color: #eee;
+    float: right;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 12px 13px;
+}
+
+.botao-close:hover{
+    background-color: #f8494c;
+    border-radius: 4px;
+}

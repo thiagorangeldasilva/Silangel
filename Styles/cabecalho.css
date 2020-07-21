@@ -1,0 +1,23 @@
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+.cabecalho{
+    background: #f8494c;
+    border-bottom: 5px solid #3d2323;
+    height: 80px;
+    box-sizing: content-box;
+}
+
+.title{
+    display: inline-block;
+    height: 80px;
+    padding: 15px;
+}
+
+.title a{
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+}

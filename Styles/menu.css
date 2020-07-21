@@ -1,0 +1,39 @@
+.menu-toggle{
+    float: right;
+    color: #eee;
+    background-color: #3d2323;
+    border: solid 1px #eee;
+    border-radius: 4px;
+    height: 40px;
+    padding: 10px 15px;
+    margin: 20px 15px;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    color: #eee;
+    font-size: 2em;
+    padding: 15px;
+}
+
+.menu a:hover, .menu a.selected {
+    background-color: #3d2323;
+    color: #eee;
+    border-radius: 40px;
+}
+

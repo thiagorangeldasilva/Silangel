@@ -1,0 +1,11 @@
+@media(min-width: 673px){
+    .menu-toggle{
+        display: none;
+    }
+}
+
+@media(max-width: 674px){
+    .menu{
+        display: none;
+    }
+}

@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Empresa especializada em instalação e manutenção de Ar-condicionado, Sistema de Segurança, Elétrica e Hidráulica.">
-    <meta name="keywords" content="Ar-condicionado, manutenção, instalação, Sistema de Segurança, câmera, Elétrica, Hidráulica">
-    <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="./Styles/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?família=Reprodução:wght@400;700&display=swap">
-    <title>Silangel - Home</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Empresa especializada em instalação e manutenção de Ar-condicionado, Sistema de Segurança, Elétrica e Hidráulica.">
+        <meta name="keywords" content="Ar-condicionado, manutenção, instalação, Sistema de Segurança, câmera, Elétrica, Hidráulica">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?família=Reprodução:wght@400;700&display=swap">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./Styles/allpageconfig.css">
+        <link rel="stylesheet" href="./Styles/cabecalho.css">
+        <link rel="stylesheet" href="./Styles/menu.css">
+        <link rel="stylesheet" href="./Styles/menu-curto.css">
+        <link rel="stylesheet" href="./Styles/media.css">
+        <title>Silangel - Home</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <a href="index.html"><h1 class="logo">Logo Aqui</h1></a>
-        <button class="botão-menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+    <header class="cabecalho sticky">
+        <div class="title">
+            <a href="./index.html">Silangel</a>
+        </div>
+        <button class="menu-toggle" id="menu-toggle"><i class="fa fa-lg fa-bars"></i></button>
         <nav class="menu">
-            <a class="botão-close">x</a>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Clientes</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Quem somos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#servico">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
         </nav>
+        <nav class="menu-curto" id="menu-curto">
+            <div class="botao-close" id="botao-close">X</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#servico">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+    </nav>
     </header>
-    <div class="banner">
-        <div class="title">
-            <h2>Instalação e Manutenção</h2>
-            <nav class="paragrafo">
-                <ul>
-                    <li><a href="#">Elétrica e hidráulica em indústria, prédio comercial, residencia e condomínios</a></li>
-                    <li><a href="#">Ar-condicionado</a></li>
-                    <li><a href="#">Sistema de segurança</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="orcamento">
-            <button class="pedir">Pedir Orçamento<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-            <button class="servico">Serviços<i class="fa fa-wrench" aria-hidden="true"></i></button>
-        </div>
-    </div>
     <footer class="rodape">
-        <a href="https://wa.me/5522981052035?" class="whastapp"><i class="fa fa-whatsapp wpp" aria-hidden="true"></i></a>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
-        $(".botão-menu").click(() => {
-            $(".menu").show()
+        $("#menu-toggle").click(() => {
+            $("#menu-curto").show()
         })
-        $(".botão-close").click(() => {
-            $(".menu").hide()
+        $("#botao-close").click(() => {
+            $("#menu-curto").hide()
         })
     </script>
 </body>
