@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="./Styles/menu.css">
         <link rel="stylesheet" href="./Styles/menu-curto.css">
         <link rel="stylesheet" href="./Styles/media.css">
-        <title>Silangel - Home</title>
+        <link rel="stylesheet" href="./Styles/servico.css">
+        <title>Silangel - Início</title>
 </head>
 <body>
     <header class="cabecalho sticky">
@@ -23,20 +24,39 @@
         <button class="menu-toggle" id="menu-toggle"><i class="fa fa-lg fa-bars"></i></button>
         <nav class="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#servico">Serviços</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#fotos">Fotos</a></>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
         </nav>
         <nav class="menu-curto" id="menu-curto">
             <div class="botao-close" id="botao-close">X</div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#servico">Serviços</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#fotos">Fotos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-    </nav>
+        </nav>
     </header>
+    <section class="servico" id="servico"> 
+        <h1>Nossos serviços</h1>
+        <ul>
+            <li>
+                Ar-condicionado
+            </li>
+            <li>
+                <img class="img-eletrica" src="./Image/eletrica.jpg" alt="Elétrica" width="400px">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img class="img-ss" id="img-ss" src="./Image/sistema-de-seguranca.jpg" alt="Elétrica" width="400px">
+            </li>
+            <li>
+                <img class="img-hidraulica" src="./Image/hidráulica.jpg" alt="Elétrica" width="400px">
+            </li>
+        </ul>
+    </section>
     <footer class="rodape">
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

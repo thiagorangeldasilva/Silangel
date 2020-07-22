@@ -1,0 +1,21 @@
+.servico{
+    color: #291a1a;
+    text-align: center;
+}
+
+.servico h1{
+    font-size: 3em;
+}
+
+.servico img{
+    border-radius: 50px;
+    border: 1px solid #3d2323;
+}
+
+.servico ul{
+    display: inline-block;
+}
+
+img:hover{
+    opacity: 1;
+}
