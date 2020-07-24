@@ -4,18 +4,71 @@
 }
 
 .servico h1{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
-.servico img{
-    border-radius: 50px;
-    border: 1px solid #3d2323;
-}
-
-.servico ul{
+.servico .card-servico{
     display: inline-block;
+    width: 384px;
+    height: 310px;
+    background-color: #f8494c;
+    margin: 50px 60px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
 }
 
-img:hover{
-    opacity: 0.1;
+.card-servico img{
+    width: 100%;
+    max-height: 80%;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.servico-info h4{
+    padding: 10px 10px;
+    margin: 0px;
+    margin-top: 2px;
+    color: #eee;
+    float: left;
+    margin-left: 5px;
+    font-size: 1.7em;
+    font-weight: 100;
+}
+
+.servico-info nav{
+    background-color: #3d2323;
+    width: 135px;
+    height: 36px;
+    font-size: 1.5em;
+    font-weight: 100;
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0px 10px;
+}
+
+.servico-info a{
+    color: #eee;
+}
+
+.servico-info nav:hover{
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.servico .ar-condicionado:hover{
+    box-shadow: 0px 8px 40px 5px rgba(0, 0, 0, 1);
+}
+
+.servico .eletrica:hover{
+    box-shadow: 0px 8px 40px 5px rgba(0, 0, 0, 1);
+}
+
+.servico .ss:hover{
+    box-shadow: 0px 8px 40px 5px rgba(0, 0, 0, 1);
+}
+
+.servico .hidraulica:hover{
+    box-shadow: 0px 8px 40px 5px rgba(0, 0, 0, 1);
 }
