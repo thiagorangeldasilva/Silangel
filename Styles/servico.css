@@ -6,27 +6,67 @@
 .servico .card-servicos{
     display: flex;
     flex-direction: row;
-    border: solid 1px #000;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .servico .card{
     display: flex;
-    border: solid 1px #000;
     flex-wrap: wrap;
     width: 384px;
     margin: 25px 0px;
+    background-color: #f8494c;
+    border-radius: 0px 21px 0px 20px;
 }
 
 .card .text-servico{
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    align-items: baseline;
-    font-size: 1.5em;
-    font-weight: 100;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card img{
+    border-radius: 0px 20px 0px 0px;
     width: 100%;
+    height: 80%;
 }
+
+.text-servico h4{
+    margin: 0px;
+    margin-left: 15px;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #eee;
+}
+
+.text-servico button{
+    margin-right: 5px;
+    width: 30%;
+    height: 50%;
+    padding: 0px;
+    background-color: #3d2323;
+    border-radius: 0px 10px 0px 10px;
+    border: none;
+}
+
+.text-servico a{
+    color: #eee;
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+.text-servico button:hover{
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.7);
+}
+
+.servico .ar-condicionado:hover{
+    box-shadow: 0px 8px 40px 5px rgba(0, 0, 0, 1);
+}
+
+.servico .eletrica:hover{
+    box-shadow: 0px 8px 40px 5px rgba(0, 0, 0, 1);
+}
+
+.servico .ss:hover{
+    box-shadow: 0px 8px 40px 5px rgba(0, 0, 0, 1);
