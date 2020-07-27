@@ -2,6 +2,9 @@
     text-align: center;
     color: #3d2323;
 }
+.servico h1{
+    font-size: 2em;
+}
 
 .servico .card-servicos{
     margin: 2px;
