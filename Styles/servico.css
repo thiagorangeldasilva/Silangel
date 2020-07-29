@@ -40,6 +40,7 @@
 }
 
 .text-servico h4{
+    width: calc(100% - 35% - 20px);
     margin: 0px;
     margin-left: 15px;
     font-size: 1.3em;
@@ -48,19 +49,21 @@
 }
 
 .text-servico button{
-    margin-right: 5px;
-    width: 35%;
-    height: 55%;
+    width: 100%;
+    height: 100%;
     padding: 0px;
+    color: #eee;
+    font-size: 1.3em;
+    font-weight: 500;
     background-color: #3d2323;
     border-radius: 0px 0px 0px 10px;
     border: none;
 }
 
 .text-servico a{
-    color: #eee;
-    font-size: 1.3em;
-    font-weight: 500;
+    width: 35%;
+    height: 55%;
+    margin: 5px;
 }
 
 .text-servico button:hover{
