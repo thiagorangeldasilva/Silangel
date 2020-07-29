@@ -1,0 +1,9 @@
+header{
+    grid-area: cabecalho;
+}
+main{
+    grid-area: conteudo;
+}
+footer{
+    grid-area: rodape;
+}

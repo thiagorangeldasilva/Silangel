@@ -1,14 +1,16 @@
 .servico{
     text-align: center;
     color: #3d2323;
+    min-width: 100vw;
 }
+
 .servico h1{
     font-size: 2em;
 }
 
 .servico .card-servicos{
-    margin: 2px;
     display: flex;
+    margin: 5px 10px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -47,11 +49,11 @@
 
 .text-servico button{
     margin-right: 5px;
-    width: 30%;
-    height: 50%;
+    width: 35%;
+    height: 55%;
     padding: 0px;
     background-color: #3d2323;
-    border-radius: 0px 10px 0px 10px;
+    border-radius: 0px 0px 0px 10px;
     border: none;
 }
 
