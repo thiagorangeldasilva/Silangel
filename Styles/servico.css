@@ -58,6 +58,7 @@
     background-color: #3d2323;
     border-radius: 0px 0px 0px 10px;
     border: none;
+    cursor: pointer;
 }
 
 .text-servico a{
