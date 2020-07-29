@@ -43,6 +43,7 @@
     width: calc(100% - 35% - 20px);
     margin: 0px;
     margin-left: 15px;
+    text-align: left;
     font-size: 1.3em;
     font-weight: 500;
     color: #eee;
