@@ -1,9 +1,12 @@
-header{
-    grid-area: cabecalho;
-}
-main{
-    grid-area: conteudo;
-}
-footer{
-    grid-area: rodape;
-}
+header{ grid-area: cabecalho; }
+main{ grid-area: conteudo; }
+footer{ grid-area: rodape; }
+
+/* pagina servicos */
+
+.ar-condicionado-pagserv{ grid-area: ar-condicinado; }
+.eletrica-pagserv{ grid-area: eletrica; }
+.ss-pagserv{ grid-area: sistema-de-seguranca; }
+.title{ grid-area: titulo; }
+.conteudo{ grid-area: conteudo; }
+.nav{ grid-area: navegacao;}

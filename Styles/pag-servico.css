@@ -1,0 +1,42 @@
+.pag-servico{
+    display: grid;
+    color: #3d2323;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 'ar-condicinado' 'eletrica' 'sistema-de-seguranca';
+}
+
+.ar-condicionado-pagserv{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 'titulo titulo' 'conteudo navegacao'; 
+}
+
+.eletrica-pagserv{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 'titulo titulo' 'conteudo navegacao';
+}
+
+.ss-pagserv{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 'titulo titulo' 'conteudo navegacao';
+}
+
+.ar-condicionado-pagserv .title{
+    margin: 0;
+    height: 100%;
+    padding: 20px 20px;
+    font-size: 3em;
+    border-bottom: solid 2px #3d2323;
+}
+
+.ar-condicionado-pagserv .conteudo{
+    margin: 0;
+    padding: 20px 20px;
+    font-size: 1.5em;
+}
