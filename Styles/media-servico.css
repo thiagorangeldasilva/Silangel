@@ -1,7 +1,7 @@
 @media(max-width: 600px){
     .pagserv{
         grid-template-columns: 1fr;
-        grid-template-rows: 80px 2fr 1fr 100px;
+        grid-template-rows: 80px 2fr 1fr 150px;
         grid-template-areas: 'titulo' 'conteudo' 'navegacao' 'garantia';
     }
 
@@ -18,7 +18,7 @@
     }
 
     .pagserv .garantia{
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .rodape{
