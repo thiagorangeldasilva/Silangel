@@ -1,4 +1,4 @@
-@media(max-width: 600px){
+@media(max-width: 927px){
     .pagserv{
         grid-template-columns: 1fr;
         grid-template-rows: 80px 2fr 1fr;
