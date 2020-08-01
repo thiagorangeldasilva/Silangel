@@ -1,19 +1,23 @@
 @media(max-width: 600px){
     .pagserv{
         grid-template-columns: 1fr;
-        grid-template-rows: 80px 2fr 1fr 80px;
-        grid-template-areas: 'titulo' 'conteudo' 'navegacao' 'garantia';
+        grid-template-rows: 80px 2fr 1fr;
+        grid-template-areas: 'titulo' 'conteudo' 'navegacao';
     }
 
     .pagserv .nav{
         margin-left: 20px;
     }
 
+    .pagserv .nav a{
+        font-size: 1.15em;
+    }
+
     .pagserv .title{
         font-size: 1.7em;
     }
 
-    .rodape{
-        margin-top: 15px;
+    .garantia{
+        display: none;
     }
 }
