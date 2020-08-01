@@ -1,7 +1,7 @@
 @media(max-width: 600px){
     .pagserv{
         grid-template-columns: 1fr;
-        grid-template-rows: 80px 2fr 1fr 150px;
+        grid-template-rows: 80px 2fr 1fr 160px;
         grid-template-areas: 'titulo' 'conteudo' 'navegacao' 'garantia';
     }
 
@@ -11,10 +11,6 @@
 
     .pagserv .title{
         font-size: 1.7em;
-    }
-
-    .pagserv .nav a{
-        font-size: 1.2em;
     }
 
     .pagserv .garantia{
