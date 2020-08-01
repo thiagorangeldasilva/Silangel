@@ -10,3 +10,4 @@ footer{ grid-area: rodape; }
 .title{ grid-area: titulo; }
 .conteudo{ grid-area: conteudo; }
 .nav{ grid-area: navegacao;}
+.garantia{ grid-area: garantia;}

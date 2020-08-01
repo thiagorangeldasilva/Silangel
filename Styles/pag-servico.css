@@ -3,7 +3,7 @@
     color: #3d2323;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 80px;
-    grid-template-areas: 'ar-condicinado' 'eletrica' 'sistema-de-seguranca';
+    grid-template-areas: 'ar-condicinado' 'eletrica' 'sistema-de-seguranca' 'garantia';
 }
 
 .pagserv{
