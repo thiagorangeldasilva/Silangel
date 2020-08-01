@@ -1,19 +1,15 @@
 @media(max-width: 600px){
-    .ar-condicionado-pagserv{
+    .pagserv{
         grid-template-columns: 1fr;
         grid-template-rows: 100px 3fr 1fr;
         grid-template-areas: 'titulo' 'conteudo' 'navegacao';
     }
 
-    .eletrica-pagserv{
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 3fr 1fr;
-        grid-template-areas: 'titulo' 'conteudo' 'navegacao';
+    .pagserv .nav{
+        margin-left: 20px;
     }
 
-    .ss-pagserv{
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 3fr 1fr;
-        grid-template-areas: 'titulo' 'conteudo' 'navegacao';
+    .rodape{
+        margin-top: 15px;
     }
 }
